@@ -15,7 +15,7 @@ services:
     depends_on:
       - app
       - elasticsearch
-    image: tsanthosh/binge-nginx
+    image: tsanthosh/binge-nginx:0.3
     command: nginx -g 'daemon off;'
     ports:
       - "80:80"
